@@ -14,7 +14,7 @@ on:
 
 # 작업 단위: 워크플로우에서 실행할 작업 묶음
 jobs:
-  # test라는 Job
+  # kimcode-test라는 Job
   kimcode-test:
     # GitHub이 제공하는 최신 Ubuntu 환경에서 실행됨
     runs-on: ubuntu-latest
