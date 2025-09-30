@@ -11,3 +11,11 @@ GET http://ec2-43-202-40-119.ap-northeast-2.compute.amazonaws.com:80/health
 ###
 
 GET http://ec2-43-202-40-119.ap-northeast-2.compute.amazonaws.com:80/bye
+
+###
+
+GET http://ec2-43-202-40-119.ap-northeast-2.compute.amazonaws.com:80/bye?name=hyun ji
+
+###
+
+GET http://localhost:3000/error-sentry
