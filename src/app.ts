@@ -15,4 +15,10 @@ app.get('/hello', (req, res) => {
     res.json({ message: result })
 })
 
+app.get('/hi', (req, res) => {
+    const name = req.query?.name?.toString() || 'Unknown'
+    const result = helloController.hi(!!name)
+    res.json({ message: result })
+})
+
 app.listen(PORT, () => console.log(`🚀 API Server Started on :${PORT}`))
