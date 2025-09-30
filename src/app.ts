@@ -17,7 +17,7 @@ app.get('/hello', (req, res) => {
 
 app.get('/hi', (req, res) => {
     const name = req.query?.name?.toString() || 'Unknown'
-    const result = helloController.hi(!!name)
+    const result = helloController.hi(name)
     res.json({ message: result })
 })
 
